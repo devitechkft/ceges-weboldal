@@ -1,9 +1,449 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>DEVITECH Kft.</title>
-    </head>
-    <body>
-        <p>Ez a DEVITECH Kft. honlapja</p>
-    </body>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Devitech Kft.</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8fafc;
+    color:#243447;
+    line-height:1.7;
+}
+
+a{
+    text-decoration:none;
+}
+
+.container{
+    width:min(1100px,92%);
+    margin:auto;
+}
+
+header{
+    position:sticky;
+    top:0;
+    background:white;
+    box-shadow:0 2px 12px rgba(0,0,0,.05);
+    z-index:100;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+}
+
+.logo .green{
+    color:#42b649;
+}
+
+.logo .blue{
+    color:#1d73d4;
+}
+
+.menu{
+    display:flex;
+    gap:35px;
+}
+
+.menu a{
+    color:#4b5563;
+    font-weight:500;
+}
+
+.menu a:hover{
+    color:#1d73d4;
+}
+
+.hero{
+    min-height:85vh;
+    display:flex;
+    align-items:center;
+}
+
+.hero-content{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:70px;
+    align-items:center;
+}
+
+.hero h1{
+    font-size:56px;
+    line-height:1.15;
+    margin-bottom:25px;
+    color:#162236;
+}
+
+.hero p{
+    font-size:20px;
+    color:#64748b;
+    margin-bottom:40px;
+}
+
+.button{
+    display:inline-block;
+    background:#1d73d4;
+    color:white;
+    padding:16px 34px;
+    border-radius:10px;
+    transition:.25s;
+    font-weight:600;
+}
+
+.button:hover{
+    background:#155bb0;
+}
+
+.hero-card{
+
+    background:white;
+    border-radius:22px;
+    padding:40px;
+    box-shadow:0 25px 50px rgba(0,0,0,.08);
+
+}
+
+.hero-card h3{
+    margin-bottom:20px;
+    color:#1d73d4;
+}
+
+.hero-card ul{
+    list-style:none;
+}
+
+.hero-card li{
+    margin:16px 0;
+    font-size:18px;
+}
+
+section{
+    padding:90px 0;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.title h2{
+    font-size:38px;
+}
+
+.title p{
+    color:#64748b;
+}
+
+.grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+
+}
+
+.card{
+
+    background:white;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 35px rgba(0,0,0,.06);
+
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#1d73d4;
+}
+
+.about{
+
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:70px;
+align-items:center;
+
+}
+
+.about-box{
+
+background:white;
+padding:40px;
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,.06);
+
+}
+
+footer{
+
+background:#ffffff;
+border-top:1px solid #e5e7eb;
+padding:40px 0;
+text-align:center;
+color:#64748b;
+
+}
+
+@media(max-width:900px){
+
+.hero-content,
+.about{
+
+grid-template-columns:1fr;
+
+}
+
+.hero{
+
+padding:70px 0;
+
+}
+
+.hero h1{
+
+font-size:42px;
+
+}
+
+.menu{
+
+display:none;
+
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div class="container">
+
+<nav>
+
+<div class="logo">
+<span class="blue">dev</span><span class="green">IT</span><span class="blue">ech</span>
+</div>
+
+<div class="menu">
+<a href="#services">Szolgáltatások</a>
+<a href="#about">Rólunk</a>
+<a href="#contact">Kapcsolat</a>
+</div>
+
+</nav>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="container">
+
+<div class="hero-content">
+
+<div>
+
+<h1>Modern szoftverek vállalkozások számára.</h1>
+
+<p>
+Egyedi webes rendszerek, mobilalkalmazások és AI-alapú megoldások fejlesztése
+modern technológiákkal.
+</p>
+
+<a class="button" href="#contact">
+Kapcsolatfelvétel
+</a>
+
+</div>
+
+<div class="hero-card">
+
+<h3>Amiben segítünk</h3>
+
+<ul>
+
+<li>✔ Egyedi üzleti szoftverek</li>
+<li>✔ Mobilalkalmazások (iOS & Android)</li>
+<li>✔ Webalkalmazások</li>
+<li>✔ AI integrációk</li>
+<li>✔ Automatizáció és rendszerintegráció</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<div class="container">
+
+<div class="title">
+
+<h2>Szolgáltatásaink</h2>
+
+<p>
+Teljes körű szoftverfejlesztési szolgáltatás egy kézből.
+</p>
+
+</div>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>Webfejlesztés</h3>
+
+<p>
+Modern, gyors és reszponzív webalkalmazások React, Spring Boot és Java
+technológiákkal.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Mobilalkalmazások</h3>
+
+<p>
+Natív és cross-platform alkalmazások iOS és Android rendszerekre.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>AI megoldások</h3>
+
+<p>
+Mesterséges intelligencia integrálása üzleti folyamatokba és alkalmazásokba.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Tanácsadás</h3>
+
+<p>
+Architektúra tervezés, digitalizáció, rendszerintegráció és fejlesztési
+tanácsadás.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<div class="container">
+
+<div class="about">
+
+<div>
+
+<h2>Miért a Devitech?</h2>
+
+<p style="margin-top:20px;">
+Célunk olyan korszerű szoftvermegoldások fejlesztése, amelyek valódi üzleti
+értéket teremtenek ügyfeleink számára.
+</p>
+
+<p style="margin-top:20px;">
+Megbízható partnerként végigkísérjük a projektet az ötlettől az üzemeltetésig.
+</p>
+
+</div>
+
+<div class="about-box">
+
+<h3>Értékeink</h3>
+
+<ul style="margin-top:20px;line-height:2;list-style:none;">
+
+<li>✓ Letisztult megoldások</li>
+<li>✓ Modern technológiák</li>
+<li>✓ Gyors fejlesztés</li>
+<li>✓ Minőségközpontú szemlélet</li>
+<li>✓ Hosszú távú együttműködés</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="container">
+
+<div class="title">
+
+<h2>Lépjünk kapcsolatba!</h2>
+
+<p>
+Ha egyedi szoftverre vagy mobilalkalmazásra van szüksége, keressen minket bizalommal.
+</p>
+
+<br>
+
+<a class="button" href="mailto:info@devitech.hu">
+info@devitech.hu
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="container">
+
+© 2026 Devitech Kft. Minden jog fenntartva.
+
+</div>
+
+</footer>
+
+</body>
 </html>
