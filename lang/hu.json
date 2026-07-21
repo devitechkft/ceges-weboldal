@@ -1,0 +1,37 @@
+{
+  "nav.services": "Szolgáltatások",
+  "nav.about": "Rólunk",
+  "nav.contact": "Kapcsolat",
+
+  "hero.badge": "Modern szoftverfejlesztés",
+
+  "hero.title": "Digitális megoldások,\namelyek előreviszik vállalkozását.",
+
+  "hero.description": "Egyedi webalkalmazások, mobilalkalmazások, AI integrációk és üzleti automatizáció.",
+
+  "hero.contact": "Kapcsolat",
+
+  "hero.services": "Szolgáltatásaink",
+
+  "services.title": "Szolgáltatások",
+
+  "services.web.title": "💻 Webfejlesztés",
+  "services.web.desc": "Modern vállalati webalkalmazások Java és Spring Boot technológiával.",
+
+  "services.mobile.title": "📱 Mobilalkalmazások",
+  "services.mobile.desc": "Natív és cross-platform alkalmazások iOS és Android platformokra.",
+
+  "services.ai.title": "🤖 AI Megoldások",
+  "services.ai.desc": "LLM-ek és mesterséges intelligencia integrációja.",
+
+  "services.cloud.title": "☁ Cloud",
+  "services.cloud.desc": "Docker, Kubernetes, CI/CD infrastruktúra.",
+
+  "about.title":"Miért a Devitech?",
+
+  "about.text":"Korszerű technológiák, skálázható architektúrák és hosszú távú együttműködés.",
+
+  "contact.title":"Beszéljünk a projektjéről!",
+
+  "contact.text":"Vegye fel velünk a kapcsolatot, és valósítsuk meg közösen elképzeléseit."
+}
