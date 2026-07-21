@@ -39,16 +39,23 @@
 
         <nav>
 
-            <a href="#services">Szolgáltatások</a>
-            <a href="#about">Rólunk</a>
-            <a href="#contact">Kapcsolat</a>
+            <a href="#services"
+               data-i18n="nav.services">
+            </a>
+            <a href="#about" data-i18n="nav.about"></a>
+            <a href="#contact" data-i18n="nav.contact"></a>
 
         </nav>
 
         <div class="language-switcher">
 
-            <button class="active">HU</button>
-            <button>EN</button>
+            <button data-lang="hu" class="active">
+                HU
+            </button>
+
+            <button data-lang="en">
+                EN
+            </button>
 
         </div>
 
@@ -83,12 +90,10 @@
 
             <div class="buttons">
 
-                <a href="#contact" class="primary">
-                    Kapcsolat
+                <a href="#contact" class="primary" data-i18n="hero.contact">
                 </a>
 
-                <a href="#services" class="secondary">
-                    Szolgáltatásaink
+                <a href="#services" class="secondary" data-i18n="hero.services">
                 </a>
 
             </div>
