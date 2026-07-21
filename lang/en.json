@@ -1,0 +1,37 @@
+{
+  "nav.services":"Services",
+  "nav.about":"About",
+  "nav.contact":"Contact",
+
+  "hero.badge":"Modern Software Development",
+
+  "hero.title":"Digital solutions\nthat move your business forward.",
+
+  "hero.description":"Custom web applications, mobile apps, AI integrations and business automation.",
+
+  "hero.contact":"Contact",
+
+  "hero.services":"Our Services",
+
+  "services.title":"Services",
+
+  "services.web.title":"💻 Web Development",
+  "services.web.desc":"Modern enterprise web applications built with Java and Spring Boot.",
+
+  "services.mobile.title":"📱 Mobile Apps",
+  "services.mobile.desc":"Native and cross-platform apps for iOS and Android.",
+
+  "services.ai.title":"🤖 AI Solutions",
+  "services.ai.desc":"LLM integration and Artificial Intelligence solutions.",
+
+  "services.cloud.title":"☁ Cloud",
+  "services.cloud.desc":"Docker, Kubernetes and CI/CD infrastructure.",
+
+  "about.title":"Why Devitech?",
+
+  "about.text":"Modern technologies, scalable architectures and long-term partnership.",
+
+  "contact.title":"Let's talk about your project!",
+
+  "contact.text":"Contact us and let's build something great together."
+}
